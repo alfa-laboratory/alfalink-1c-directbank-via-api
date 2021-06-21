@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResultBank xmlns="http://directbank.1c.ru/XMLSchema" formatVersion="2.2.2">
+    <Success>
+        <GetPacketListResponse TimeStampLastPacket="2021-06-03T09:16:43.279Z">
+            <PacketID>66b7012a-43c0-4122-a671-ba41f5dafc60</PacketID>
+            <PacketID>be71f4fe-dc00-42b2-97b8-ad38e011ee34</PacketID>
+        </GetPacketListResponse>
+    </Success>
+</ResultBank>

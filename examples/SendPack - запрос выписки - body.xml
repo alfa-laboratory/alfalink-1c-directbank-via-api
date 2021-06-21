@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Packet xmlns="http://directbank.1c.ru/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="d9f1aab0-6863-432d-89e6-6c653ff7c9c8" formatVersion="2.2.2" creationDate="2021-06-09T13:33:45.483" userAgent="1С - БЭД: 1.7.2.55;БиблиотекаЭлектронныхДокументовДемо: 1.7.2.55">
+  <Sender>
+    <Customer id="40702810701300009144" name="Общество с ограниченной ответственностью &quot;Тест Директ Банк&quot;" inn="0329156629"/>
+  </Sender>
+  <Recipient>
+    <Bank bic="044525593" name="АО &quot;АЛЬФА-БАНК&quot;"/>
+  </Recipient>
+  <Document id="f816dfd4-4683-4f68-b912-6abd2c9e3eb6" dockind="14" formatVersion="2.2.2">
+<Data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPFN0YXRlbWVu
+dFJlcXVlc3QgY3JlYXRpb25EYXRlPSIyMDIxLTA2LTA5VDEzOjMzOjQ1LjQ2NiIg
+Zm9ybWF0VmVyc2lvbj0iMi4yLjIiIGlkPSJmODE2ZGZkNC00NjgzLTRmNjgtYjkx
+Mi02YWJkMmM5ZTNlYjYiIHVzZXJBZ2VudD0iMdChIC0g0JHQrdCUOiAxLjcuMi41
+NTsg0JHQuNCx0LvQuNC+0YLQtdC60LDQrdC70LXQutGC0YDQvtC90L3Ri9GF0JTQ
+vtC60YPQvNC10L3RgtC+0LLQlNC10LzQvjogMS43LjIuNTUiIHhtbG5zPSJodHRw
+Oi8vZGlyZWN0YmFuay4xYy5ydS9YTUxTY2hlbWEiIHhtbG5zOnhzPSJodHRwOi8v
+d3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3
+LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+CiAgICAgIDxTZW5kZXIg
+aWQ9IjQwNzAyODEwNzAxMzAwMDA5MTQ0IiBpbm49IjAzMjkxNTY2MjkiIGtwcD0i
+MDQzMzYwMDgxIiBuYW1lPSLQntCx0YnQtdGB0YLQstC+INGBINC+0LPRgNCw0L3Q
+uNGH0LXQvdC90L7QuMyGINC+0YLQstC10YLRgdGC0LLQtdC90L3QvtGB0YLRjNGO
+ICZxdW90O9Ci0LXRgdGCINCU0LjRgNC10LrRgiDQkdCw0L3QuiZxdW90OyIvPgog
+ICAgICA8UmVjaXBpZW50IGJpYz0iMDQ0NTI1NTkzIiBuYW1lPSLQkNCeICZxdW90
+O9CQ0JvQrNCk0JAt0JHQkNCd0JomcXVvdDsiLz4KICAgICAgPERhdGE+CiAgICAg
+ICAgICAgIDxTdGF0ZW1lbnRUeXBlPjA8L1N0YXRlbWVudFR5cGU+CiAgICAgICAg
+ICAgIDxEYXRlRnJvbT4yMDIxLTA1LTE1VDEzOjUxOjQ1LjQ3NzwvRGF0ZUZyb20+
+CiAgICAgICAgICAgIDxEYXRlVG8+MjAyMS0wNS0xNlQxMzo1MTo0NS40Nzc8L0Rh
+dGVUbz4KICAgICAgICAgICAgPEFjY291bnQ+NDA3MDI4MTA3MDEzMDAwMDkxNDQ8
+L0FjY291bnQ+CiAgICAgICAgICAgIDxCYW5rPgogICAgICAgICAgICAgICAgICA8
+QklDPjA0NDUyNTU5MzwvQklDPgogICAgICAgICAgICAgICAgICA8TmFtZT7QkNCe
+ICZxdW90O9CQ0JvQrNCk0JAt0JHQkNCd0JomcXVvdDs8L05hbWU+CiAgICAgICAg
+ICAgICAgICA8L0Jhbms+CiAgICAgICAgICA8L0RhdGE+CjwvU3RhdGVtZW50UmVx
+dWVzdD4=</Data>
+  </Document>
+</Packet>

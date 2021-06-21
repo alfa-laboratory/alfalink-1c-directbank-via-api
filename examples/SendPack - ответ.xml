@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResultBank xmlns="http://directbank.1c.ru/XMLSchema" formatVersion="2.2.2">
+    <Success>
+        <SendPacketResponse>
+            <ID>293ed9c5-8cf0-4ef8-a239-844ae5c701f2</ID>
+        </SendPacketResponse>
+    </Success>
+</ResultBank>

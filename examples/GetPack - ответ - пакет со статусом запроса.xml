@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResultBank xmlns="http://directbank.1c.ru/XMLSchema" formatVersion="2.2.2">
+    <Success>
+        <GetPacketResponse id="f2004d28-0286-4742-9f2e-5d653b1f964e" formatVersion="2.2.2" creationDate="2021-06-09T10:36:15.958Z">
+            <Sender>
+                <Bank bic="044525593" name="АО &quot;АЛЬФА-БАНК&quot;"/>
+            </Sender>
+            <Recipient>
+                <Customer id="40702810701300009144" name="Общество с ограниченнойответственностью &quot;Тест Директ Банк&quot;" inn="0329156629"/>
+            </Recipient>
+            <Document id="c77b7c17-e7fe-4cff-9227-264821070309" dockind="01" formatVersion="2.2.2">
+                <Data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxTdGF0dXNQYWNrZXROb3RpY2UgeG1sbnM9Imh0dHA6Ly9kaXJlY3RiYW5rLjFjLnJ1L1hNTFNjaGVtYSIgaWQ9IjEwOWI4NTk0LTIyYWQtNGJhMy1hOTE1LTVhMmY5MGJjYmZhZiIgZm9ybWF0VmVyc2lvbj0iMi4yLjIiIGNyZWF0aW9uRGF0ZT0iMjAyMS0wNi0wOVQxMDozNjoxNS41NTlaIj48U2VuZGVyPjxCYW5rIGJpYz0iMDQ0NTI1NTkzIiBuYW1lPSLQkNCeICZxdW90O9CQ0JvQrNCk0JAt0JHQkNCd0JomcXVvdDsiLz48L1NlbmRlcj48UmVjaXBpZW50PjxDdXN0b21lciBpZD0iNDA3MDI4MTA3MDEzMDAwMDkxNDQiIG5hbWU9ItCe0LHRidC10YHRgtCy0L4g0YEg0L7Qs9GA0LDQvdC40YfQtdC90L3QvtC50L7RgtCy0LXRgtGB0YLQstC10L3QvdC+0YHRgtGM0Y4gJnF1b3Q70KLQtdGB0YIg0JTQuNGA0LXQutGCINCR0LDQvdC6JnF1b3Q7IiBpbm49IjAzMjkxNTY2MjkiLz48L1JlY2lwaWVudD48SURSZXN1bHRTdWNjZXNzUmVzcG9uc2U+MjkzZWQ5YzUtOGNmMC00ZWY4LWEyMzktODQ0YWU1YzcwMWYyPC9JRFJlc3VsdFN1Y2Nlc3NSZXNwb25zZT48UmVzdWx0PjxTdGF0dXM+PENvZGU+MDE8L0NvZGU+PE5hbWU+0J/RgNC40L3Rj9GCPC9OYW1lPjwvU3RhdHVzPjwvUmVzdWx0PjxFeHRJRFBhY2tldD5kOWYxYWFiMC02ODYzLTQzMmQtODllNi02YzY1M2ZmN2M5Yzc8L0V4dElEUGFja2V0PjwvU3RhdHVzUGFja2V0Tm90aWNlPg==</Data>
+            </Document>
+        </GetPacketResponse>
+    </Success>
+</ResultBank>
