@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "73fffc2f-dbde-4f4e-a18f-f6326398668a",
+		"name": "1C:DirectBank. Тестирование",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Создать сессию",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "directBank",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml"
+					},
+					{
+						"key": "customerid",
+						"value": "40702810701300009144"
+					},
+					{
+						"key": "apiversion",
+						"value": "2.2.2"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic MDU2MTcxOiFGaW5hbnMyMDE3"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://grampus-int.alfabank.ru/API/v1/directbank/Logon",
+					"protocol": "https",
+					"host": [
+						"grampus-int",
+						"alfabank",
+						"ru"
+					],
+					"path": [
+						"API",
+						"v1",
+						"directbank",
+						"Logon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправить документ",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "directBank",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml"
+					},
+					{
+						"key": "customerid",
+						"value": "40702810701300009144"
+					},
+					{
+						"key": "apiversion",
+						"value": "2.2.2"
+					},
+					{
+						"key": "SID",
+						"value": "ID  сессии"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ODc4MjQ0Olp6MTIzNDU2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Packet xmlns=\"http://directbank.1c.ru/XMLSchema\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" id=\"f816dfd4-4683-4f68-b912-ffffffee0002\" formatVersion=\"2.2.2\" creationDate=\"2021-06-09T13:33:45.483\" userAgent=\"1С - БЭД: 1.7.2.55;БиблиотекаЭлектронныхДокументовДемо: 1.7.2.55\">\n  <Sender>\n    <Customer id=\"40702810701300009144\" name=\"Общество с ограниченной ответственностью &quot;Тест Директ Банк&quot;\" inn=\"0329156629\"/>\n  </Sender>\n  <Recipient>\n    <Bank bic=\"044525593\" name=\"АО &quot;АЛЬФА-БАНК&quot;\"/>\n  </Recipient>\n  <Document id=\"f816dfd4-4683-4f68-b912-ffffffff0001\" dockind=\"14\" formatVersion=\"2.2.2\">\n<Data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPFN0YXRlbWVu\ndFJlcXVlc3QgY3JlYXRpb25EYXRlPSIyMDIxLTA2LTA5VDEzOjMzOjQ1LjQ2NiIg\nZm9ybWF0VmVyc2lvbj0iMi4yLjIiIGlkPSJmODE2ZGZkNC00NjgzLTRmNjgtYjkx\nMi1mZmZmZmZmZjAwMDEiIHVzZXJBZ2VudD0iMdChIC0g0JHQrdCUOiAxLjcuMi41\nNTsg0JHQuNCx0LvQuNC+0YLQtdC60LDQrdC70LXQutGC0YDQvtC90L3Ri9GF0JTQ\nvtC60YPQvNC10L3RgtC+0LLQlNC10LzQvjogMS43LjIuNTUiIHhtbG5zPSJodHRw\nOi8vZGlyZWN0YmFuay4xYy5ydS9YTUxTY2hlbWEiIHhtbG5zOnhzPSJodHRwOi8v\nd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3\nLnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+CiAgICAgIDxTZW5kZXIg\naWQ9IjQwNzAyODEwNzAxMzAwMDA5MTQ0IiBpbm49IjAzMjkxNTY2MjkiIGtwcD0i\nMDQzMzYwMDgxIiBuYW1lPSLQntCx0YnQtdGB0YLQstC+INGBINC+0LPRgNCw0L3Q\nuNGH0LXQvdC90L7QuMyGINC+0YLQstC10YLRgdGC0LLQtdC90L3QvtGB0YLRjNGO\nICZxdW90O9Ci0LXRgdGCINCU0LjRgNC10LrRgiDQkdCw0L3QuiZxdW90OyIvPgog\nICAgICA8UmVjaXBpZW50IGJpYz0iMDQ0NTI1NTkzIiBuYW1lPSLQkNCeICZxdW90\nO9CQ0JvQrNCk0JAt0JHQkNCd0JomcXVvdDsiLz4KICAgICAgPERhdGE+CiAgICAg\nICAgICAgIDxTdGF0ZW1lbnRUeXBlPjA8L1N0YXRlbWVudFR5cGU+CiAgICAgICAg\nICAgIDxEYXRlRnJvbT4yMDIxLTA1LTAxVDEzOjUxOjQ1LjQ3NzwvRGF0ZUZyb20+\nCiAgICAgICAgICAgIDxEYXRlVG8+MjAyMS0wNS0zMFQxMzo1MTo0NS40Nzc8L0Rh\ndGVUbz4KICAgICAgICAgICAgPEFjY291bnQ+NDA3MDI4MTA3MDEzMDAwMDkxNDQ8\nL0FjY291bnQ+CiAgICAgICAgICAgIDxCYW5rPgogICAgICAgICAgICAgICAgICA8\nQklDPjA0NDUyNTU5MzwvQklDPgogICAgICAgICAgICAgICAgICA8TmFtZT7QkNCe\nICZxdW90O9CQ0JvQrNCk0JAt0JHQkNCd0JomcXVvdDs8L05hbWU+CiAgICAgICAg\nICAgICAgICA8L0Jhbms+CiAgICAgICAgICA8L0RhdGE+CjwvU3RhdGVtZW50UmVx\ndWVzdD4=</Data>\n  </Document>\n</Packet>"
+				},
+				"url": {
+					"raw": "https://grampus-int.alfabank.ru/API/v1/directbank/SendPack",
+					"protocol": "https",
+					"host": [
+						"grampus-int",
+						"alfabank",
+						"ru"
+					],
+					"path": [
+						"API",
+						"v1",
+						"directbank",
+						"SendPack"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить список пакетов",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "directBank",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml"
+					},
+					{
+						"key": "customerid",
+						"value": "40702810701300009144"
+					},
+					{
+						"key": "apiversion",
+						"value": "2.2.2"
+					},
+					{
+						"key": "sid",
+						"value": "ID  сессии"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ODc4MjQ0Olp6MTIzNDU2"
+					}
+				],
+				"url": {
+					"raw": "https://grampus-int.alfabank.ru/API/v1/directbank/GetPackList",
+					"protocol": "https",
+					"host": [
+						"grampus-int",
+						"alfabank",
+						"ru"
+					],
+					"path": [
+						"API",
+						"v1",
+						"directbank",
+						"GetPackList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить значение пакета (извещения)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "directBank",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml"
+					},
+					{
+						"key": "customerid",
+						"value": "40702810701300009144"
+					},
+					{
+						"key": "apiversion",
+						"value": "2.2.2"
+					},
+					{
+						"key": "sid",
+						"value": "ID  сессии"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ODc4MjQ0Olp6MTIzNDU2"
+					}
+				],
+				"url": {
+					"raw": "https://grampus-int.alfabank.ru/API/v1/directbank/GetPack?id=ID пакета",
+					"protocol": "https",
+					"host": [
+						"grampus-int",
+						"alfabank",
+						"ru"
+					],
+					"path": [
+						"API",
+						"v1",
+						"directbank",
+						"GetPack"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "ID пакета"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
