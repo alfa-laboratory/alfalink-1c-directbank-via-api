@@ -187,3 +187,17 @@ https://www.cryptopro.ru/products/csp/jcsp https://www.cryptopro.ru/products/csp
    4.3. На вкладке «Params» ввести параметр из 3.3
 
    4.4. Нажать «Send» 
+
+
+
+## 9. Справочная информация и поддержка
+
+В случае возникновения вопросов/проблем вы можете:
+
+- Найти решение своего вопроса на [странице вопросов к документации](https://github.com/alfa-laboratory/alfalink-1c-directbank-via-api/issues)
+- Создать тикет на [странице документации](https://github.com/alfa-laboratory/alfalink-1c-directbank-via-api/issues). Для этого нужно нажать на кнопку New issue, указать в заголовке краткое описание проблемы, а потом описать проблему полностью, при необходимости, приложив скриншоты.
+- Отправить свой вопрос по почте на адрес:
+  - [AIShitik@alfabank.ru](mailto:AIShitik@alfabank.ru) (Шитик Артём)
+  - в копию (обязательно):
+    - [AKopyltsova@alfabank.ru](mailto:AKopyltsova@alfabank.ru) (Анна Копыльцова)
+    - [alfa-link@alfabank.ru](mailto:alfa-link@alfabank.ru)
